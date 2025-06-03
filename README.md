@@ -1,16 +1,32 @@
-# pace
+# Pace ⏱️  
+*A Pomodoro Timer aimed at improving focus and work consistency.*
 
-A new Flutter project.
+Pace helps you work in focused intervals using the Pomodoro Technique — breaking your work into manageable chunks with regular breaks to maintain productivity and avoid burnout.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Simple and intuitive Pomodoro timer
+- Cross-platform support with Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 The Pomodoro Technique
+
+1. Work for 25 minutes (Pomodoro)
+2. Take a 5-minute break
+
+Repeat to build sustainable focus habits.
+
+---
+
+## 📦 Getting Started
+
+Clone the repo and run the app:
+
+```bash
+git clone git@github.com:keswel/pace.git
+cd pace
+flutter pub get
+flutter run
