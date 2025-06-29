@@ -465,6 +465,20 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     });
   }
+  void _reset() {
+    setState(() {
+      
+      _hours = 0;
+      _minutes = 0;
+      _seconds = 0;
+
+      _timeElapsed = 0; // used to track cycles
+      _studyTime = 25 * 60; // 25 min intervals.
+      _breakTime = 5 * 60; //  5 min intervals.
+      _cycleCount = 0; // amount of times cycled.
+      _cycleThresh = 5; // total cycles wanted
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -501,6 +515,26 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     child: Text(
                       _header,
+                      style: TextStyle(
+                        fontSize: MediaQuery.of(context).size.height * 0.05,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+
+              Expanded(
+                child: Center(
+                  child: TextButton(
+                    onPressed: _reset,
+                    style: TextButton.styleFrom(
+                      padding: EdgeInsets.zero,
+                      minimumSize: Size(0, 0),
+                      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                    ),
+                    child: Text(
+                      "reset",
                       style: TextStyle(
                         fontSize: MediaQuery.of(context).size.height * 0.05,
                         fontWeight: FontWeight.w600,
