@@ -1,5 +1,6 @@
 # Pace ⏱️  
 *A Pomodoro Timer aimed at improving focus and work consistency.*
+![2025-06-29 17-00-01](https://github.com/user-attachments/assets/6e135d55-f801-4935-8079-39b9f6c459a5)
 
 Pace helps you work in focused intervals using the Pomodoro Technique — breaking your work into manageable chunks with regular breaks to maintain productivity and avoid burnout.
 
